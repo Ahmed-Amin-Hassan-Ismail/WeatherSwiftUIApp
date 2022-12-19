@@ -11,6 +11,10 @@
 		AC8F53BE2950BF3100B6D1A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F53BD2950BF3100B6D1A0 /* ContentView.swift */; };
 		AC8F53C02950BF3200B6D1A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8F53BF2950BF3200B6D1A0 /* Assets.xcassets */; };
 		AC8F53C32950BF3200B6D1A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8F53C22950BF3200B6D1A0 /* Preview Assets.xcassets */; };
+		AC8F53CE2950C38E00B6D1A0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F53CD2950C38E00B6D1A0 /* API.swift */; };
+		AC8F53D02950C52300B6D1A0 /* API+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F53CF2950C52300B6D1A0 /* API+EXT.swift */; };
+		AC8F53D22950C62C00B6D1A0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F53D12950C62C00B6D1A0 /* NetworkManager.swift */; };
+		AC8F53D42950C6C400B6D1A0 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F53D32950C6C400B6D1A0 /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		AC8F53BD2950BF3100B6D1A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC8F53BF2950BF3200B6D1A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC8F53C22950BF3200B6D1A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC8F53CD2950C38E00B6D1A0 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		AC8F53CF2950C52300B6D1A0 /* API+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+EXT.swift"; sourceTree = "<group>"; };
+		AC8F53D12950C62C00B6D1A0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AC8F53D32950C6C400B6D1A0 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				AC8F53BB2950BF3100B6D1A0 /* WeatherSwiftUIAppApp.swift */,
+				AC8F53C92950C33300B6D1A0 /* Components */,
+				AC8F53CC2950C36300B6D1A0 /* Modules */,
 				AC8F53BD2950BF3100B6D1A0 /* ContentView.swift */,
 				AC8F53BF2950BF3200B6D1A0 /* Assets.xcassets */,
 				AC8F53C12950BF3200B6D1A0 /* Preview Content */,
@@ -65,6 +75,40 @@
 				AC8F53C22950BF3200B6D1A0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC8F53C92950C33300B6D1A0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AC8F53CB2950C35D00B6D1A0 /* Animations */,
+				AC8F53CA2950C35600B6D1A0 /* Networking */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AC8F53CA2950C35600B6D1A0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AC8F53CD2950C38E00B6D1A0 /* API.swift */,
+				AC8F53CF2950C52300B6D1A0 /* API+EXT.swift */,
+				AC8F53D12950C62C00B6D1A0 /* NetworkManager.swift */,
+				AC8F53D32950C6C400B6D1A0 /* NetworkError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		AC8F53CB2950C35D00B6D1A0 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		AC8F53CC2950C36300B6D1A0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +182,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC8F53BE2950BF3100B6D1A0 /* ContentView.swift in Sources */,
+				AC8F53CE2950C38E00B6D1A0 /* API.swift in Sources */,
+				AC8F53D22950C62C00B6D1A0 /* NetworkManager.swift in Sources */,
+				AC8F53D42950C6C400B6D1A0 /* NetworkError.swift in Sources */,
+				AC8F53D02950C52300B6D1A0 /* API+EXT.swift in Sources */,
 				AC8F53BC2950BF3100B6D1A0 /* WeatherSwiftUIAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
