@@ -21,6 +21,7 @@ struct HourlyHeaderView: View {
                     getHourlyView(hour: hour, image: icon, temp: temp)
                 }
             }
+            .padding()
         }
     }
 }

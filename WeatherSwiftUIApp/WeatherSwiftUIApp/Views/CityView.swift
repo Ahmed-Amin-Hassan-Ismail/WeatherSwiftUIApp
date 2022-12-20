@@ -24,7 +24,7 @@ struct CityView: View {
             DailyWeatherView(cityViewModel: cityViewModel)
                         
         }
-        .padding(30)
+       // .padding(30)
     }
 }
 

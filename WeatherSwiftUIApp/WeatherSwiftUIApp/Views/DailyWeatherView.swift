@@ -11,8 +11,8 @@ struct DailyWeatherView: View {
     @ObservedObject var cityViewModel: CityViewModel
     
     var body: some View {
-        ForEach(cityViewModel.weather.daily) { weather in
-            LazyVStack {
+            VStack(spacing: 15) {
+                ForEach(cityViewModel.weather.daily) { weather in
                 dailyCell(weather: weather)
             }
         }

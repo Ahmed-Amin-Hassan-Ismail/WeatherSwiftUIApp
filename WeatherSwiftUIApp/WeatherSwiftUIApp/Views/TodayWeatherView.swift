@@ -61,7 +61,7 @@ extension TodayWeatherView {
     
     private func widgetView(image: String, color: Color, title: String) -> some View {
         VStack {
-            Image(image)
+            Image(systemName: image)
                 .padding()
                 .font(.title)
                 .foregroundColor(color)
