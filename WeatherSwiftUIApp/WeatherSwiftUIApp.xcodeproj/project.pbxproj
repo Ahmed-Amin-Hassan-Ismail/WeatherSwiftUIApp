@@ -23,6 +23,7 @@
 		ACF9FD932951E02B002F20EB /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9FD922951E02B002F20EB /* CityViewModel.swift */; };
 		ACF9FD962951EC47002F20EB /* Image+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9FD952951EC47002F20EB /* Image+EXT.swift */; };
 		ACF9FD992951EEC6002F20EB /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = ACF9FD982951EEC6002F20EB /* Lottie */; };
+		ACF9FD9C2951F066002F20EB /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9FD9B2951F066002F20EB /* LottieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		AC8F53DE2950D44900B6D1A0 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 		ACF9FD922951E02B002F20EB /* CityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
 		ACF9FD952951EC47002F20EB /* Image+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+EXT.swift"; sourceTree = "<group>"; };
+		ACF9FD9B2951F066002F20EB /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				AC8F53CA2950C35600B6D1A0 /* Networking */,
 				AC8F53D52950D2BA00B6D1A0 /* Models */,
 				ACF9FD912951E017002F20EB /* ViewModels */,
+				ACF9FD9A2951EF15002F20EB /* Views */,
 				AC8F53BD2950BF3100B6D1A0 /* ContentView.swift */,
 				AC8F53BF2950BF3200B6D1A0 /* Assets.xcassets */,
 				AC8F53C12950BF3200B6D1A0 /* Preview Content */,
@@ -110,6 +113,7 @@
 		AC8F53CB2950C35D00B6D1A0 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				ACF9FD9B2951F066002F20EB /* LottieView.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -140,6 +144,13 @@
 				ACF9FD952951EC47002F20EB /* Image+EXT.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ACF9FD9A2951EF15002F20EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +240,7 @@
 				ACF9FD932951E02B002F20EB /* CityViewModel.swift in Sources */,
 				AC8F53D72950D3C500B6D1A0 /* WeatherResponse.swift in Sources */,
 				AC8F53D42950C6C400B6D1A0 /* NetworkError.swift in Sources */,
+				ACF9FD9C2951F066002F20EB /* LottieView.swift in Sources */,
 				AC8F53D02950C52300B6D1A0 /* API+EXT.swift in Sources */,
 				AC8F53BC2950BF3100B6D1A0 /* WeatherSwiftUIAppApp.swift in Sources */,
 			);
