@@ -50,9 +50,9 @@ struct TodayWeatherView: View {
                     colors: [.blue.opacity(0.5), .blue],
                     startPoint: .top, endPoint: .bottom))
                 .opacity(0.3)
-                .shadow(color: .white.opacity(0.1), radius: 2, x: -2, y: -2)
-                .shadow(color: .black.opacity(0.2), radius: 2, x: 2, y: 2)
         )
+        .shadow(color: .white.opacity(0.1), radius: 2, x: -2, y: -2)
+        .shadow(color: .black.opacity(0.2), radius: 2, x: 2, y: 2)
     }
 }
 
