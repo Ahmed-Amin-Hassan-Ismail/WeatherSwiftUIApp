@@ -42,6 +42,7 @@
 		ACF9FDC72951F523002F20EB /* nightScatteredClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = ACF9FDB52951F523002F20EB /* nightScatteredClouds.json */; };
 		ACF9FDC82951F523002F20EB /* nightFewClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = ACF9FDB62951F523002F20EB /* nightFewClouds.json */; };
 		ACF9FDC92951F523002F20EB /* nightBrokenClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = ACF9FDB72951F523002F20EB /* nightBrokenClouds.json */; };
+		ACF9FDCB2951F584002F20EB /* MenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9FDCA2951F584002F20EB /* MenuHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		ACF9FDB52951F523002F20EB /* nightScatteredClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightScatteredClouds.json; sourceTree = "<group>"; };
 		ACF9FDB62951F523002F20EB /* nightFewClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightFewClouds.json; sourceTree = "<group>"; };
 		ACF9FDB72951F523002F20EB /* nightBrokenClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightBrokenClouds.json; sourceTree = "<group>"; };
+		ACF9FDCA2951F584002F20EB /* MenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 		ACF9FD9A2951EF15002F20EB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ACF9FDCA2951F584002F20EB /* MenuHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			files = (
 				AC8F53DD2950D43100B6D1A0 /* DailyWeather.swift in Sources */,
 				AC8F53D92950D40C00B6D1A0 /* Weather.swift in Sources */,
+				ACF9FDCB2951F584002F20EB /* MenuHeaderView.swift in Sources */,
 				AC8F53BE2950BF3100B6D1A0 /* ContentView.swift in Sources */,
 				ACF9FD962951EC47002F20EB /* Image+EXT.swift in Sources */,
 				AC8F53CE2950C38E00B6D1A0 /* API.swift in Sources */,
