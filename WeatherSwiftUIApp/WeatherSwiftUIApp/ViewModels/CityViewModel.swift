@@ -126,10 +126,6 @@ final class CityViewModel: ObservableObject {
         }
     }
     
-    
-    
-    
-    
     func getLottieAnimationFor(icon: String) -> String {
         switch icon {
         case "Old":
