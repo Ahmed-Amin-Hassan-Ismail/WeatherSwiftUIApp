@@ -167,7 +167,7 @@ final class CityViewModel: ObservableObject {
         case "50d":
             return "dayMist"
         case "50n":
-            return "dayMist"
+            return "nightMist"
         default:
             return "dayClearSky"
             
