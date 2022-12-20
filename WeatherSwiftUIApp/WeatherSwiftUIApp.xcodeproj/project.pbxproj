@@ -47,6 +47,7 @@
 		ACF9FDCF2951FA14002F20EB /* TodayWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9FDCE2951FA14002F20EB /* TodayWeatherView.swift */; };
 		ACF9FDD129520088002F20EB /* HourlyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9FDD029520088002F20EB /* HourlyHeaderView.swift */; };
 		ACF9FDD3295204DD002F20EB /* DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9FDD2295204DD002F20EB /* DailyWeatherView.swift */; };
+		ACF9FDD5295206B1002F20EB /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9FDD4295206B1002F20EB /* CityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		ACF9FDCE2951FA14002F20EB /* TodayWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWeatherView.swift; sourceTree = "<group>"; };
 		ACF9FDD029520088002F20EB /* HourlyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyHeaderView.swift; sourceTree = "<group>"; };
 		ACF9FDD2295204DD002F20EB /* DailyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherView.swift; sourceTree = "<group>"; };
+		ACF9FDD4295206B1002F20EB /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,8 +198,9 @@
 			isa = PBXGroup;
 			children = (
 				AC8F53BD2950BF3100B6D1A0 /* ContentView.swift */,
-				ACF9FDCA2951F584002F20EB /* MenuHeaderView.swift */,
+				ACF9FDD4295206B1002F20EB /* CityView.swift */,
 				ACF9FDCC2951F95C002F20EB /* CityNameView.swift */,
+				ACF9FDCA2951F584002F20EB /* MenuHeaderView.swift */,
 				ACF9FDCE2951FA14002F20EB /* TodayWeatherView.swift */,
 				ACF9FDD029520088002F20EB /* HourlyHeaderView.swift */,
 				ACF9FDD2295204DD002F20EB /* DailyWeatherView.swift */,
@@ -325,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC8F53DD2950D43100B6D1A0 /* DailyWeather.swift in Sources */,
+				ACF9FDD5295206B1002F20EB /* CityView.swift in Sources */,
 				AC8F53D92950D40C00B6D1A0 /* Weather.swift in Sources */,
 				ACF9FDCD2951F95C002F20EB /* CityNameView.swift in Sources */,
 				ACF9FDCB2951F584002F20EB /* MenuHeaderView.swift in Sources */,
