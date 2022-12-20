@@ -48,6 +48,7 @@
 		ACF9FDD129520088002F20EB /* HourlyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9FDD029520088002F20EB /* HourlyHeaderView.swift */; };
 		ACF9FDD3295204DD002F20EB /* DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9FDD2295204DD002F20EB /* DailyWeatherView.swift */; };
 		ACF9FDD5295206B1002F20EB /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9FDD4295206B1002F20EB /* CityView.swift */; };
+		ACF9FDD8295212B8002F20EB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = ACF9FDD7295212B8002F20EB /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +101,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF9FD992951EEC6002F20EB /* Lottie in Frameworks */,
+				ACF9FDD8295212B8002F20EB /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +253,7 @@
 			name = WeatherSwiftUIApp;
 			packageProductDependencies = (
 				ACF9FD982951EEC6002F20EB /* Lottie */,
+				ACF9FDD7295212B8002F20EB /* Alamofire */,
 			);
 			productName = WeatherSwiftUIApp;
 			productReference = AC8F53B82950BF3100B6D1A0 /* WeatherSwiftUIApp.app */;
@@ -282,6 +285,7 @@
 			mainGroup = AC8F53AF2950BF3100B6D1A0;
 			packageReferences = (
 				ACF9FD972951EEC6002F20EB /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				ACF9FDD6295212B8002F20EB /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = AC8F53B92950BF3100B6D1A0 /* Products */;
 			projectDirPath = "";
@@ -559,6 +563,14 @@
 				version = 3.2.0;
 			};
 		};
+		ACF9FDD6295212B8002F20EB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -566,6 +578,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = ACF9FD972951EEC6002F20EB /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		ACF9FDD7295212B8002F20EB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ACF9FDD6295212B8002F20EB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
